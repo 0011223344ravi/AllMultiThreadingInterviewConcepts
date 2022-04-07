@@ -1,6 +1,7 @@
 package com;
-//same as case2 but the method is static synchronized and we get the regular output
-
+//same as case2 but the method is static synchronized and we get the regular output//its get us class level lock
+//in that scenario the thread uses the class level lock and so we get the regular output
+//case 4 :->other than synchronized static method, other threads can get the other methods.
 
 
 class Dispa {
